@@ -1,0 +1,5 @@
+---
+- hosts: local
+  tasks:
+  - name: restart nginx
+    service: name=nginx state=started
